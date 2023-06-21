@@ -10,7 +10,7 @@ const dbConn = 'mongodb+srv://techdell727:ola_12345@cluster0.iowofnp.mongodb.net
 const APP_ID = 'akanjiOla';
 const MASTER_KEY = 'myNewMasterKeyApi';
 const REST_API_KEY ='akanjiOlaKey';
-const SERVER_URL = 'http://localhost:1337/parse'
+const SERVER_URL = 'https://dreamserver.onrender.com/parse'
 //https://dreaminvestment-b52297c0d397.herokuapp.com
 const api = new ParseServer({
   databaseURI:dbConn,
